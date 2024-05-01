@@ -38,7 +38,7 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "11450835"))
 	API_HASH = os.environ.get("API_HASH", "0fadb61feae6ccf016932823bbf1565c")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","5084260721:AAHavD_ZCGRXweDtMOzRBM8OsY3_fPuJQl8")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","5084260721:AAEG3ITMWUUb3eBG0_xAJ_pDH_oH8XVgiNM")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "filesharing306_bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1001752842454))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1254785184"))
